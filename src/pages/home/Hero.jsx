@@ -32,11 +32,11 @@ const Hero = () => {
           {isDarkMode ? <BsSun className="text-yellow-300" /> : <BsMoon />}
         </button>
       </div>
-      <div class="fixed bottom-5 left-5 flex items-center">
+      <div className="fixed bottom-5 left-5 flex items-center">
         <a
           href="https://wa.me/+971569562045"
           target="_blank"
-          class="text-white flex items-center justify-center w-30 h-30 bg-[#66C15F] p-3 rounded-full shadow-lg animate-bounce hover:scale-110 transition-transform"
+          className="text-white flex items-center justify-center w-30 h-30 bg-[#66C15F] p-3 rounded-full shadow-lg animate-bounce hover:scale-110 transition-transform"
         >
           <BsWhatsapp size={30} />
         </a>

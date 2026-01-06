@@ -16,8 +16,6 @@ const Products = ({ headline }) => {
     (product) => product.category === selectedCategory
   );
 
-  console.log(filteredProducts)
-
   const loadMoreProducts = () => {
     setVisibleProducts((prev) => prev + 4);
   };
