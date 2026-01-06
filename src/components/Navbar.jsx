@@ -7,7 +7,7 @@ import { CartContext } from '../context/CartContext';
 const navItems = [
     { path: '/', label: 'Furniture' },
     { path: '/shop', label: 'Shop' },
-    { path: '/about', label: 'About Us' },
+    // { path: '/about', label: 'About Us' },
     { path: '/contact', label: 'Contact' },
 ];
 
@@ -56,7 +56,7 @@ const Navbar = () => {
     return (
         <header className={`fixed top-0 left-0 w-full z-50 transition duration-300 ease-in-out ${isScrolled ? 'bg-white shadow-md text-black' : 'bg-transparent text-white'}`}>
             <nav className="max-w-screen-2xl container mx-auto py-6 px-4 flex justify-between items-center">
-                <NavLink to="/" className="font-bold">Panto</NavLink>
+                <NavLink to="/" className="font-bold">Company Name</NavLink>
 
                 {/* Hamburger Icon for Mobile */}
                 <div className="md:hidden text-xl cursor-pointer" onClick={toggleMenu}>

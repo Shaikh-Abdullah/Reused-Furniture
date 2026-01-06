@@ -2,6 +2,7 @@ import React from 'react'
 import contactBgImg from "../../assets/contact-background.jpg"
 import Materials from '../home/Materials'
 import Testimonials from '../home/Testimonials'
+import ContactFrom from './ContactFrom'
 
 const Contact = () => {
   return (
@@ -17,6 +18,7 @@ const Contact = () => {
      </div>
      <Materials/>
      <Testimonials/>
+     {/* <ContactFrom /> */}
    </section>
   )
 }
